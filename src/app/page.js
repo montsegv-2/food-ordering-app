@@ -34,14 +34,14 @@ export default function Home() {
         />
         <div className="mt-8">
           <a
-            className="text-2xl underline text-gray-500"
+            className="text-3xl underline text-gray-500"
             href="tel+46748374820"
           >
             +46 748 374 820
           </a>
         </div>
       </section>
-      <footer className="border-t p-8 text-center text-gray-500">
+      <footer className="border-t p-8 text-center text-gray-500 mt-16">
         &copy; 2024 All rights reserved
       </footer>
     </>
