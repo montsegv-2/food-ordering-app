@@ -32,11 +32,18 @@ export default function Home() {
           subHeader={"Don't hesitate"}
           mainHeader={"Contact us"}
         />
-        <a className="text-2xl" href="tel+46748374820">
-          +46 748 374 820
-        </a>
-        <h1></h1>
+        <div className="mt-8">
+          <a
+            className="text-2xl underline text-gray-500"
+            href="tel+46748374820"
+          >
+            +46 748 374 820
+          </a>
+        </div>
       </section>
+      <footer className="border-t p-8 text-center">
+        &copy; 2024 All rights reserved
+      </footer>
     </>
   );
 }
