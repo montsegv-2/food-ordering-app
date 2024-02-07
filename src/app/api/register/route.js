@@ -1,3 +1,3 @@
 export function POST(req) {
-  return <div>route</div>;
+  return Response.json("ok");
 }
