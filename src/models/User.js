@@ -17,6 +17,10 @@ const UserSchema = new Schema(
   { timestamps: true }
 );
 
+UserSchema.post("validate", function (docs) {
+  console.log({ arguments });
+});
+
 const User = models?.User || model("User", UserSchema);
 
 export default User;
